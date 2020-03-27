@@ -10,6 +10,13 @@ import com.example.basicswipetabs.fragment.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
+    /**
+     * Create:
+     * - tabs related to swipe behaviour
+     * - list tab with RecyclerView with mocked data inside
+     * - main tab with details of one RecyclerView item from list tab
+     */
+
     private lateinit var viewPager: ViewPager
 
     override fun onCreate(savedInstanceState: Bundle?) {
