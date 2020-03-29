@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
 import com.example.basicswipetabs.*
 import com.example.basicswipetabs.adapter.MainPagerAdapter
+import com.example.basicswipetabs.api.ServiceGenerator
 import com.example.basicswipetabs.fragment.ListFragment
 import com.example.basicswipetabs.fragment.MainFragment
 
@@ -31,5 +32,6 @@ class MainActivity : AppCompatActivity() {
         pagerAdapter.addFragment(Constants.TAB_TITLE_MAIN, MainFragment())
         pagerAdapter.addFragment(Constants.TAB_TITLE_LIST, ListFragment())
         viewPager.adapter = pagerAdapter
+
     }
 }
